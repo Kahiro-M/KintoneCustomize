@@ -1,0 +1,17 @@
+/* [アプリ] > [設定] > [一覧] > [カスタム]で作成した擬似ダッシュボードのスタイル整形 */
+.iframe-wrapper-custom {
+    display: inline-block;
+    width:32%;
+    margin: 3px;
+    background-color: #ccc;
+  }
+  
+.iframe-wrapper-custom iframe {
+    aspect-ratio: 4/3;
+    width: 100%;
+    height: auto;
+}
+
+/* .iframe-wrapper-custom iframe .graph-title-gaia{
+    background-color: #333 !important;
+} */
